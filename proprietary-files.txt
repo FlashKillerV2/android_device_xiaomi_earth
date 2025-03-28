@@ -671,6 +671,9 @@ vendor/firmware/fm_cust.cfg
 vendor/firmware/mt6631_fm_v1_coeff.bin
 vendor/firmware/mt6631_fm_v1_patch.bin
 
+# Firmware
+vendor/firmware/focaltech_mp_fw_djn.ini
+
 # Fuelgauge
 vendor/bin/fuelgauged
 vendor/bin/fuelgauged_nvram
