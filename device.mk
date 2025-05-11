@@ -7,6 +7,9 @@
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
+# Inherit the proprietary files
+-include vendor/lineage-priv/keys/keys.mk
+
 # Inherit virtual_ab_ota product
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
@@ -20,6 +23,10 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 PRODUCT_PACKAGES += \
     com.android.hardware.boot \
     android.hardware.boot-service.default_recovery
+    
+# Google camera
+PRODUCT_PACKAGES += \
+    gcam
 
 PRODUCT_PACKAGES += \
     create_pl_dev \
