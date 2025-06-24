@@ -11,3 +11,10 @@ persist.dbg.wfc_avail_ovr=1
 
 # Zygote
 zygote.critical_window.minute=10
+
+# Infinity-X
+ro.product.marketname=Redmi 12C
+ro.infinity.soc=MediaTek Helio G85
+ro.infinity.battery=5000 mAh
+ro.infinity.display=720 x 1650, 60 Hz
+ro.infinity.camera=5MP, 50MP + 2MP
